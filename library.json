@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "version": "2026-02-21T10:15:00Z"
+  },
+  "treatments": [
+    {
+      "id": "t_infusion_bardane",
+      "name": "Infusion de bardane",
+      "availability": "library",
+      "category": "infusion",
+      "rank": 1,
+      "dose_value": 2,
+      "dose_unit": "g",
+      "dose_text": "2 g dans 250 ml d'eau.",
+      "take_morning": true,
+      "take_noon": false,
+      "take_evening": true,
+      "notes": "Cure dépurative",
+      "is_continuous": false,
+      "duration_type": "fixed",
+      "fixed_duration_days": 21,
+      "is_composed": false,
+      "lang": "fr",
+      "status": "published"
+    },
+    {
+      "id": "t_mix_detox",
+      "name": "Mélange détox",
+      "availability": "protocol_only",
+      "category": "infusion",
+      "rank": 5,
+      "dose_value": 5,
+      "dose_unit": "g",
+      "dose_text": "5 g dans 250 ml d'eau.",
+      "take_morning": true,
+      "take_noon": false,
+      "take_evening": true,
+      "notes": "Cure détoxifiante",
+      "is_continuous": false,
+      "duration_type": "cycle",
+      "cycle_on_days": 20,
+      "cycle_off_days": 10,
+      "cycle_count": 3,
+      "is_composed": true,
+      "lang": "fr",
+      "status": "published"
+    }
+  ],
+  "treatment_components": [
+    {
+      "id": "tc1",
+      "treatment_id": "t_mix_detox",
+      "component_name": "Bardane",
+      "quantity_value": 1,
+      "quantity_unit": "g",
+      "rank": 1
+    },
+    {
+      "id": "tc2",
+      "treatment_id": "t_mix_detox",
+      "component_name": "Ortie",
+      "quantity_value": 1,
+      "quantity_unit": "g",
+      "rank": 2
+    }
+  ],
+  "protocols": [
+    {
+      "id": "p_detox_printemps",
+      "name": "Protocole Détox Printemps",
+      "category": "global",
+      "rank": 1,
+      "lang": "fr",
+      "status": "published"
+    }
+  ],
+  "protocol_items": [
+    {
+      "id": "pi1",
+      "protocol_id": "p_detox_printemps",
+      "treatment_id": "t_mix_detox",
+      "start_offset_days": 0,
+      "rank": 1
+    },
+    {
+      "id": "pi2",
+      "protocol_id": "p_detox_printemps",
+      "treatment_id": "t_infusion_bardane",
+      "start_offset_days": 30,
+      "rank": 2
+    }
+  ]
+}
