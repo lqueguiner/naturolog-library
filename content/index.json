@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "version": "2026-02-25T00:00:00Z",
+    "lang": "fr",
+    "library": "naturolog-resources"
+  },
+  "items": [
+    {
+      "id": "plant_bardane",
+      "type": "plante",
+      "title": "Bardane (Arctium lappa)",
+      "category": "infusion",
+      "rank": 20,
+      "tags": ["detox", "peau", "foie"],
+      "summary": "Plante utilisée traditionnellement pour le soutien cutané et le drainage.",
+      "path": "content/fiches/plantes/bardane.md",
+      "cover_image": "assets/images/plantes/bardane.jpg",
+      "related_treatments": ["t_infusion_bardane"],
+      "related_protocols": ["p_detox_printemps"],
+      "updated_at": "2026-02-25"
+    },
+    {
+      "id": "proto_detox_printemps",
+      "type": "protocole",
+      "title": "Protocole Détox Printemps",
+      "category": "global",
+      "rank": 5,
+      "tags": ["detox"],
+      "summary": "Exemple de protocole structuré (phases, démarrage décalé).",
+      "path": "content/fiches/protocoles/detox-printemps.md",
+      "cover_image": "",
+      "related_treatments": ["t_mix_detox", "t_infusion_bardane"],
+      "related_protocols": ["p_detox_printemps"],
+      "updated_at": "2026-02-25"
+    },
+    {
+      "id": "practice_infusion_guide",
+      "type": "pratique",
+      "title": "Guide : préparer une infusion",
+      "category": "infusion",
+      "rank": 1,
+      "tags": ["infusion", "preparation", "guide"],
+      "summary": "Méthode simple et sûre pour préparer une infusion au quotidien.",
+      "path": "content/fiches/pratiques/infusion-guide.md",
+      "cover_image": "",
+      "related_treatments": [],
+      "related_protocols": [],
+      "updated_at": "2026-02-25"
+    }
+  ]
+}
