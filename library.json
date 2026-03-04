@@ -13,7 +13,7 @@
       "dose_unit": "ml",
       "take_morning": true,
       "take_noon": false,
-      "take_evening": false,
+      "take_evening": true,
       "is_continuous": true,
       "is_composed": false,
       "lang": "fr",
