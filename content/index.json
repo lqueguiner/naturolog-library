@@ -43,9 +43,10 @@
       "summary": "Action de l'argent colloïdal.",
       "path": "content/fiches/traitements/argent-colloidal.md",
       "cover_image": "",
-      "related_treatments": [],
+      "related_treatments": ["t_ag_20ppm"],
       "related_protocols": [],
       "updated_at": "2026-02-25"
     }
+     
   ]
 }
