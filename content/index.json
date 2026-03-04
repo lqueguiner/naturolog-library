@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "2026-03-04T14:53:00Z",
+    "version": "2026-03-04T22:06:00Z",
     "lang": "fr",
     "library": "naturolog-resources"
   },
@@ -177,7 +177,7 @@
       "id": "argent_colloidal",
       "type": "traitement",
       "title": "L'Argent colloïdal",
-      "category": "complément_alimentaire",
+      "category": "chimie naturelle",
       "rank": 1,
       "tags": ["argent", "guide"],
       "summary": "Action de l'argent colloïdal.",
