@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "2026-02-21T22:35:45.048Z"
+    "version": "2026-03-06T19:17:45.048Z"
   },
   "treatments": [
     {
@@ -14,28 +14,229 @@
       "take_morning": true,
       "take_noon": false,
       "take_evening": true,
-      "is_continuous": true,
+      "is_continuous": false,
+      "duration_type": "cycle",
+      "cycle_on_days": 21,
+      "cycle_off_days": 7,
+      "cycle_count": 6,
       "is_composed": false,
       "lang": "fr",
       "status": "published"
     },
     {
-      "id": "t_klmbp",
-      "name": "Mélange Killyme Mbappé",
-      "availability": "library",
+      "id": "t_kljnt",
+      "name": "Mélange Killyme Jornet",
+      "availability": "protocol_only",
       "category": "aromatherapie",
       "rank": 1,
       "take_morning": true,
       "take_noon": false,
       "take_evening": true,
       "notes": "massages plante des pieds",
-      "is_continuous": true,
-      "is_composed": false,
+      "is_continuous": false,
+      "duration_type": "cycle",
+      "cycle_on_days": 21,
+      "cycle_off_days": 28,
+      "cycle_count": 3,
+      "is_composed": true,
+      "lang": "fr",
+      "status": "published"
+    },
+    {
+      "id": "t_klmbp",
+      "name": "Mélange Killyme Mbappé",
+      "availability": "protocol_only",
+      "category": "aromatherapie",
+      "rank": 1,
+      "take_morning": true,
+      "take_noon": false,
+      "take_evening": true,
+      "notes": "massages plante des pieds",
+      "is_continuous": false,
+      "duration_type": "cycle",
+      "cycle_on_days": 21,
+      "cycle_off_days": 28,
+      "cycle_count": 3,
+      "is_composed": true,
+      "lang": "fr",
+      "status": "published"
+    },
+    {
+      "id": "t_trmnlm",
+      "name": "Teinture TerminaLyme",
+      "availability": "library",
+      "category": "teinture mère",
+      "rank": 1,
+      "dose_value": 35,
+      "dose_unit": "ml",
+      "take_morning": true,
+      "take_noon": false,
+      "take_evening": true,
+      "notes": "boire tel quel ou dilué",
+      "is_continuous": false,
+      "duration_type": "cycle",
+      "cycle_on_days": 21,
+      "cycle_off_days": 7,
+      "cycle_count": 6,
+      "is_composed": true,
       "lang": "fr",
       "status": "published"
     }
   ],
-  "treatment_components": [],
-  "protocols": [],
-  "protocol_items": []
+  "treatment_components": [
+    {
+      "id": "tc4",
+      "treatment_id": "t_kljnt",
+      "component_name": "HE Sarriette",
+      "rank": 1
+    },
+    {
+      "id": "tc5",
+      "treatment_id": "t_kljnt",
+      "component_name": "HE Bay St Thomas",
+      "rank": 2
+    },
+    {
+      "id": "tc6",
+      "treatment_id": "t_kljnt",
+      "component_name": "HE Ail",
+      "rank": 3
+    },
+    {
+      "id": "tc1",
+      "treatment_id": "t_klmbp",
+      "component_name": "HE Origan",
+      "rank": 1
+    },
+    {
+      "id": "tc2",
+      "treatment_id": "t_klmbp",
+      "component_name": "HE Cannelle",
+      "rank": 2
+    },
+    {
+      "id": "tc3",
+      "treatment_id": "t_klmbp",
+      "component_name": "HE Clou de girofle",
+      "rank": 3
+    },
+    {
+      "id": "tc7",
+      "treatment_id": "t_trmnlm",
+      "component_name": "TM Renouée du Japon",
+      "quantity_value": 5,
+      "quantity_unit": "ml",
+      "rank": 1
+    },
+    {
+      "id": "tc8",
+      "treatment_id": "t_trmnlm",
+      "component_name": "TM Cardère",
+      "quantity_value": 5,
+      "quantity_unit": "ml",
+      "rank": 2
+    },
+    {
+      "id": "tc9",
+      "treatment_id": "t_trmnlm",
+      "component_name": "TM Usnée barbue",
+      "quantity_value": 5,
+      "quantity_unit": "ml",
+      "rank": 3
+    },
+    {
+      "id": "tc10",
+      "treatment_id": "t_trmnlm",
+      "component_name": "TM Stévia",
+      "quantity_value": 5,
+      "quantity_unit": "ml",
+      "rank": 4
+    },
+    {
+      "id": "tc11",
+      "treatment_id": "t_trmnlm",
+      "component_name": "TM Salsepareille",
+      "quantity_value": 5,
+      "quantity_unit": "ml",
+      "rank": 5
+    },
+    {
+      "id": "tc12",
+      "treatment_id": "t_trmnlm",
+      "component_name": "TM Griffe du chat",
+      "quantity_value": 5,
+      "quantity_unit": "ml",
+      "rank": 6
+    },
+    {
+      "id": "tc13",
+      "treatment_id": "t_trmnlm",
+      "component_name": "TM Chardon marie",
+      "quantity_value": 5,
+      "quantity_unit": "ml",
+      "rank": 7
+    }
+  ],
+  "protocols": [
+    {
+      "id": "p_killyme_aroma",
+      "name": "Protocole Aroma Lyme",
+      "category": "aromatherapie",
+      "rank": 1,
+      "description": "Protocole de lutte contre la maladie de Lyme en aromathérapie",
+      "default_duration_days": 168,
+      "lang": "fr",
+      "status": "published"
+    },
+    {
+      "id": "p_mouquiner",
+      "name": "Protocole Mouquiner",
+      "category": "global",
+      "rank": 2,
+      "description": "Protocole complet de naturopathie pour combattre la maladie de Lyme",
+      "default_duration_days": 168,
+      "lang": "fr",
+      "status": "published"
+    }
+  ],
+  "protocol_items": [
+    {
+      "id": "pi1",
+      "protocol_id": "p_killyme_aroma",
+      "treatment_id": "t_klmbp",
+      "start_offset_days": 0,
+      "rank": 1
+    },
+    {
+      "id": "pi2",
+      "protocol_id": "p_killyme_aroma",
+      "treatment_id": "t_kljnt",
+      "start_offset_days": 29,
+      "rank": 2
+    },
+    {
+      "id": "pi3",
+      "protocol_id": "p_mouquiner",
+      "treatment_id": "t_klmbp",
+      "start_offset_days": 0
+    },
+    {
+      "id": "pi5",
+      "protocol_id": "p_mouquiner",
+      "treatment_id": "t_trmnlm",
+      "start_offset_days": 0
+    },
+    {
+      "id": "pi6",
+      "protocol_id": "p_mouquiner",
+      "treatment_id": "t_ag_20ppm",
+      "start_offset_days": 0
+    },
+    {
+      "id": "pi4",
+      "protocol_id": "p_mouquiner",
+      "treatment_id": "t_kljnt",
+      "start_offset_days": 29
+    }
+  ]
 }
