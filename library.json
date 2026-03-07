@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "2026-03-07T19:17:45.048Z"
+    "version": "2026-03-07T19:17:46.048Z"
   },
   "treatments": [
     {
@@ -190,7 +190,7 @@
     },
     {
       "id": "p_queguiner",
-      "name": "Protocole Mouquiner",
+      "name": "Protocole Quéguiner",
       "category": "global",
       "rank": 2,
       "description": "Protocole complet de naturopathie pour combattre la maladie de Lyme",
