@@ -6,7 +6,7 @@ category: phytotherapie
 rank: 3
 tags: [lyme, teintures, detox, immunité]
 related_treatments: [plant_renouee_japon, plant_usnee_barbue, plant_stevia, plant_cardere, plant_griffe_du_chat, plant_salsepareille]
-updated_at: 2026-03-06
+updated_at: 2026-03-07
 disclaimer: "Information éducative. Ne remplace pas un avis médical."
 ---
 
