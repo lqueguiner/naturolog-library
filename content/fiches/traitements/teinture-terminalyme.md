@@ -54,3 +54,8 @@ Ce protocole réunit une sélection exceptionnelle de plantes (piliers des proto
 - **Interactions potentielles** : La Renouée du Japon possède des propriétés anti-coagulantes naturelles. Ne pas associer avec des médicaments fluidifiants sanguins.
 - **Contre-indications** : Strictement contre-indiqué en cas de grossesse (Renouée, Usnée et Andrographis proscrites).
 - **Publics sensibles** : La Griffe du chat doit être utilisée avec prudence chez les personnes sous traitements immunosuppresseurs (greffe, maladies auto-immunes sévères).
+
+## Achat des teintures mères en ligne
+
+Renoué, Salsepareille, Cardère, Chardon marie
+[Pierre D'Astier](https://www.pierredastier.com)
