@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "2026-03-04T22:06:00Z",
+    "version": "2026-03-06T18:50:00Z",
     "lang": "fr",
     "library": "naturolog-resources"
   },
@@ -261,27 +261,6 @@
       "updated_at": "2026-03-04"
     },
     {
-      "id": "proto_detox_printemps",
-      "type": "protocole",
-      "title": "Protocole Détox Printemps",
-      "category": "global",
-      "rank": 5,
-      "tags": [
-        "detox"
-      ],
-      "summary": "Exemple de protocole structuré (phases, démarrage décalé).",
-      "path": "content/fiches/protocoles/detox-printemps.md",
-      "cover_image": "",
-      "related_treatments": [
-        "t_mix_detox",
-        "t_infusion_bardane"
-      ],
-      "related_protocols": [
-        "p_detox_printemps"
-      ],
-      "updated_at": "2026-02-25"
-    },
-    {
       "id": "argent_colloidal",
       "type": "traitement",
       "title": "L'Argent colloïdal",
@@ -317,6 +296,52 @@
       "path": "content/fiches/pathologies/lyme.md",
       "cover_image": "",
       "related_treatments": [],
+      "related_protocols": [],
+      "updated_at": "2026-03-06"
+    },
+    {
+      "id": "p_killyme_aroma",
+      "type": "protocole",
+      "title": "Protocole Aroma Lyme",
+      "category": "aromathéraphie",
+      "rank": 1,
+      "tags": [
+        "huiles_essentielles",
+        "lyme",
+        "antibactérien"
+      ],
+      "summary": "Ce protocole vise à éradiquer la bactérie Borrelia tout en évitant l'adaptation bactérienne grâce à une rotation stratégique de mélanges d'huiles essentielles puissantes.",
+      "path": "content/fiches/protocoles/p_killyme_aroma.md",
+      "cover_image": "",
+      "related_treatments": [],
+      "related_protocols": [
+        "p_detox_printemps"
+      ],
+      "updated_at": "2026-02-25"
+    },
+    {
+      "id": "t_trmnlm",
+      "type": "traitement",
+      "title": "Teinture TerminaLyme",
+      "category": "phytotherapie",
+      "rank": 3,
+      "tags": [
+        "lyme",
+        "teintures",
+        "detox",
+        "immunité"
+      ],
+      "summary": "Sélection exceptionnelle de plantes pour couvrir l'éradication, la destruction des biofilms, le soutien de l'immunité et la détoxification contre la maladie de Lyme.",
+      "path": "content/fiches/traitements/teinture-terminalyme.md",
+      "cover_image": "",
+      "related_treatments": [
+        "plant_renouee_japon",
+        "plant_usnee_barbue",
+        "plant_stevia",
+        "plant_cardere",
+        "plant_griffe_du_chat",
+        "plant_salsepareille"
+      ],
       "related_protocols": [],
       "updated_at": "2026-03-06"
     }
