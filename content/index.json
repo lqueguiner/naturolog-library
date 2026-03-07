@@ -263,7 +263,7 @@
     {
       "id": "argent_colloidal",
       "type": "traitement",
-      "title": "L'Argent colloïdal",
+      "title": "Argent colloïdal",
       "category": "chimie naturelle",
       "rank": 1,
       "tags": [
@@ -344,6 +344,60 @@
       ],
       "related_protocols": [],
       "updated_at": "2026-03-06"
+    },
+    {
+      "id": "protocole_queguiner",
+      "type": "protocole",
+      "title": "Protocole Quéguiner (Phyto, Aromathérapie et Argent Colloïdal)",
+      "category": "protocole_complet",
+      "rank": 4,
+      "tags": [
+        "lyme",
+        "approche_globale",
+        "teintures",
+        "huiles_essentielles",
+        "argent_colloidal",
+        "rotation"
+      ],
+      "summary": "Ce protocole déploie une stratégie d'attaque sur trois fronts simultanés pour éradiquer la bactérie Borrelia et ses co-infections. Il combine l'action bactéricide de l'argent colloïdal, la force anti-biofilm des huiles essentielles en rotation, et l'approche systémique d'une synergie de 7 teintures mères.",
+      "path": "content/fiches/protocoles/p_queguiner.md",
+      "cover_image": "",
+      "related_treatments": [
+        "plant_renouee_japon",
+        "plant_usnee_barbue",
+        "plant_stevia",
+        "plant_cardere",
+        "plant_griffe_du_chat",
+        "plant_salsepareille",
+        "traitement_argent_colloidal"
+      ],
+      "related_protocols": [],
+      "updated_at": "2026-03-07"
+    },
+    {
+      "id": "plant_chardon_marie",
+      "type": "plante",
+      "title": "Chardon-Marie (Silybum marianum)",
+      "category": "gélules_teinture",
+      "rank": 13,
+      "tags": [
+        "foie",
+        "detox",
+        "protection",
+        "lyme"
+      ],
+      "summary": "Plante utilisée traditionnellement pour la détoxification, la protection et la régénération hépatique.",
+      "path": "content/fiches/plantes/plant_chardon_marie.md",
+      "cover_image": "assets/images/plantes/chardon_marie.jpg",
+      "related_treatments": [
+        "t_gelules_chardon_marie",
+        "t_eps_chardon_marie"
+      ],
+      "related_protocols": [
+        "p_soutien_hepatique",
+        "p_detox_lyme"
+      ],
+      "updated_at": "2026-03-07"
     }
   ]
 }
