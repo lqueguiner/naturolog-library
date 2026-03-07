@@ -1,5 +1,5 @@
 ---
-id: protocole_queguiner
+id: p_queguiner
 type: protocole
 title: Protocole Quéguiner (Phyto, Aromathérapie et Argent Colloïdal)
 category: protocole_complet
